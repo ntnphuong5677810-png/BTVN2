@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro",sans-serif;
+}
+
+body{
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+header{
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    gap: 257px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+header h2{
+    font-size: 34px;
+    line-height: 100%;
+    font-weight: 700;
+}
+
+header nav{
+    width: 400px;
+    height: 36px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+}
+
+form{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+.wrap_form{
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.button{
+    width: 185px;
+    height: 56px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+}
+.wrap_section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+section{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+section h3{
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 12px;
+}
+footer{
+    width: 100%;
+    margin: ;
+}

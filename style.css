@@ -79,7 +79,6 @@ form{
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    cursor: pointer;
 }
 
 .button:hover {
@@ -104,7 +103,7 @@ section{
     gap: 16px;
 }
 section h3{
-    height: 36PX;
+    height: 36px;
     font-size: 20px;
     font-weight: 700;
 }
